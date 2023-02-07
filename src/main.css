@@ -1,0 +1,217 @@
+:root {
+    --pi4-primary-light: #d6ffab;
+    --pi4-primary: #80b155;
+    --pi4-primary-rgb: rgb(128, 177, 85);
+    --pi4-primary-transparent: rgba(128, 177, 85, 0.5);
+
+    --pi4-primary-dark: #729d4c;
+    --pi4-primary-box-shadow: 0 0 0 0.25rem var(--pi4-primary-transparent);
+
+    /*  */
+    --pi4-secondary-light: lightgreen;
+    --pi4-secondary: green;
+    --pi4-secondary-dark: darkgreen;
+
+    --visitante: #bacc6a;
+    --visitante-dark: #a7b85f;
+    --agente-turistico: #80b155;
+    --agente-turistico-dark: #74a14d;
+    --responsavel-regiao: #539477;
+    --responsavel-regiao-dark: #447a62;
+    --administrador: #6c757d;
+    --administrador-dark: #5a6269;
+    --modais: #343A40;
+
+}
+
+/* backgrounds */
+.bg-modais {
+    background-color: var(--modais);
+}
+
+.bg-visitante {
+    background-color: var(--visitante);
+}
+
+.bg-agente {
+    background-color: var(--agente-turistico);
+}
+
+.bg-responsavel {
+    background-color: var(--responsavel-regiao);
+}
+
+.bg-admin {
+    background-color: var(--administrador);
+}
+
+/* botões */
+.btn-modais {
+    background-color: var(--modais);
+}
+
+.btn-visitante {
+    background-color: var(--visitante);
+}
+
+.btn.btn-visitante:hover,
+.btn.btn-outline-visitante:hover {
+    color: var(--bs-white);
+    background-color: var(--visitante-dark);
+    border-color: var(--visitante-dark);
+}
+
+.btn-agente {
+    background-color: var(--agente-turistico);
+}
+
+.btn.btn-agente:hover,
+.btn.btn-outline-agente:hover {
+    color: var(--bs-white);
+    background-color: var(--agente-turistico-dark);
+    border-color: var(--agente-turistico-dark);
+}
+
+.btn-responsavel {
+    background-color: var(--responsavel-regiao);
+}
+
+.btn.btn-responsavel:hover,
+.btn.btn-outline-responsavel:hover {
+    color: var(--bs-white);
+    background-color: var(--responsavel-regiao-dark);
+    border-color: var(--responsavel-regiao-dark);
+}
+
+.btn-admin {
+    background-color: var(--administrador);
+}
+
+.btn.btn-admin:hover,
+.btn.btn-outline-admin:hover {
+    color: var(--bs-white);
+    background-color: var(--administrador-dark);
+    border-color: var(--administrador-dark);
+}
+
+/* color text */
+.text-visitante {
+    color: var(--visitante)
+}
+
+
+.text-responsavel {
+    color: var(--responsavel-regiao);
+}
+
+.text-agente {
+    color: var(--agente-turistico);
+}
+
+.text-admin {
+    color: var(--administrador);
+}
+
+/* outas cenas */
+.pi4-menu-item:hover {
+    background-color: var(--bs-gray-800);
+}
+
+.pi4-menu-item:hover span {
+    color: var(--bs-gray-400) !important;
+}
+
+.btn {
+    border-radius: var(--bs-border-radius-lg);
+}
+
+.btn:active {
+    filter: brightness(0.9)
+}
+
+.btn-primary {
+    color: var(--bs-white);
+    background-color: var(--pi4-primary);
+    border-color: var(--pi4-primary);
+}
+
+.btn-outline-primary {
+    color: var(--pi4-primary);
+    background-color: var(--bs-white);
+    border-color: var(--pi4-primary);
+}
+
+.btn.btn-primary:hover,
+.btn.btn-outline-primary:hover {
+    color: var(--bs-white);
+    background-color: var(--pi4-primary-dark);
+    border-color: var(--pi4-primary-dark);
+}
+
+.btn.btn-primary:focus-visible,
+.btn.btn-outline-primary:focus-visible {
+    color: var(--bs-white);
+    background-color: var(--pi4-primary);
+    border-color: var(--pi4-primary);
+    outline: 0;
+    box-shadow: var(--pi4-primary-box-shadow);
+}
+
+.form-control:focus,
+.dropdown-toggle.show {
+    color: #212529;
+    background-color: #fff;
+    border-color: var(--pi4-primary);
+    outline: 0;
+    box-shadow: var(--pi4-primary-box-shadow);
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: var(--bs-white);
+    text-decoration: none;
+    background-color: var(--pi4-primary);
+}
+
+
+/* background */
+.bg-primary {
+    background-color: var(--pi4-primary) !important;
+}
+
+.bg-primary-transparent {
+    background-color: var(--pi4-primary-transparent) !important;
+}
+
+.text-primary {
+    color: var(--pi4-primary) !important;
+}
+
+.h-18rem {
+    height: 18rem;
+}
+
+.h-25rem {
+    height: 25rem;
+}
+
+.h-5-5rem {
+    height: 5.5rem;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.w-33 {
+    width: 33%;
+}
+
+.dropdown-menu {
+    max-height: 280px;
+    overflow-y: auto;
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+  }
